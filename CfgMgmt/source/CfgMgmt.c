@@ -73,7 +73,9 @@ int main(void) {
     /*unsigned int PeppePecas(void)
      * {
      *
-     *
+     *		code
+     *		code
+     *		more code
      *
      * return result;
      * } */
