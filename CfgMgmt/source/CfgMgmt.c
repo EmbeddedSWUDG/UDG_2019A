@@ -80,7 +80,14 @@ int main(void) {
     volatile static int i = 0 ;
     /* Enter an infinite loop, just incrementing a counter. */
     while(1) {
-        i++ ;
+
+
+        for(i=0; i< 900000; i++)
+        {
+        	__NOP;
+        }
+        LED_GREEN_TOGGLE();
+         i = 0;
     }
     return 0 ;
 }
