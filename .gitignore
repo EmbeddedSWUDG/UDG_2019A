@@ -2,3 +2,7 @@
 CfgMgmt/.cproject
 CfgMgmt/.project
 CfgMgmt/.settings/language.settings.xml
+*.log
+*.launch
+*.launch
+CfgMgmt/CfgMgmt PE Debug.launch
